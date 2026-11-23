@@ -1,4 +1,4 @@
-# craft-winprint-gdi
+# bharat-winprint-gdi
 
 Safe Windows driver settings, printable geometry and RGB/GDI transport. Other platforms return Unsupported. Callers compose page pixels and vector strokes and perform ICC conversion; the transport owns no app or document state. Manual copies use a validated single-copy DEVMODE. Application-managed and unmanaged RGB use ICM_DONE_OUTSIDEDC, reapplied after StartPage; driver-managed RGB uses ICM_OFF. Driver automatic color correction still belongs to its settings.
 
